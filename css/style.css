@@ -1,0 +1,353 @@
+/* import da fonte Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@100;400;500;700&display=swap');
+
+/* Começo da configuração navbar */
+
+.navbar {
+    height: 54px;
+    border-bottom: 1px #DBDBDB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFF;
+}
+
+/* Configuração da logo no topo */
+
+.logo-mobile {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador-logo {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin: 0 10px;
+}
+
+/* Configuração do buscador no topo */
+
+.buscador {
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+    text-align: center;
+}
+
+
+/* Configuração dos icones de atalho */
+
+.atalhos {
+    width: 125px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fim da configuração navbar */
+
+/* Geral */
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Roboto";
+}
+
+strong {
+    font-weight: bolder;
+    color: #262626;
+    font-size: 14px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+a {
+    color: #000;
+}
+
+.conteudo {
+    height: 1000px;
+    margin-right: 5px;
+}
+
+/* Começo da configuração da barra de stories */
+
+.stories-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    background-color: #FFF;
+    margin-bottom: 24px;
+    border-radius: 3px;
+}
+
+.stories-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    text-align: center;
+    margin: 0 6px;
+}
+
+.story p {
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.story > div {  
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    margin-bottom: 5px;
+
+    background-image: url(../img/stories_background.jpg);
+    background-size: 66px 66px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.story img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.botoes {
+    float: right;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    display: hidden;
+    margin-left: 584px;
+}
+
+.botoes ion-icon {
+    color: #FFF;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    position: absolute;
+    filter: drop-shadow(1px 1px 1px #a3a3a3)
+}
+
+/* Fim da configuração da barra de stories */
+
+/* Começo da configuração do Sidebar */
+
+.sidebar {
+    width: 293px;
+    height: 542px;
+}
+
+.sidebar-content {
+    position: fixed;
+    margin: 5px 15px 0 630px;
+}
+
+.perfil-usuario {
+    width: 100%;
+    height: 56px;
+    margin-top: 23px;
+    display: flex;
+}
+
+.perfil-nome {
+    text-align: left;
+    padding-top: 15px;
+}
+
+.perfil-nome > p {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #8E8E8E;
+}
+
+.perfil-usuario > img{
+    width: 56px;
+    height: 56px;
+    margin: 0 17px;
+}
+
+/* Configuração da aba de sugestões */
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    color: #8e8e8e;
+    margin-left: 17px;
+    margin-top: 24px;
+}
+
+.topo > p, .topo > strong{
+    
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.seguir {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.perfil {
+    height: 32px;
+    margin-left: 17px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil img {
+    width: 32px;
+    height: 32px;
+}
+
+.perfil > .perfil-nome > p{
+    font-size: 12px;
+}
+
+.perfil > .perfil-nome {
+    padding: 0;
+    margin-right: auto;
+    margin-left: 11px;
+}
+
+.seguir {
+    font-size: 12px;
+    color: #139EF2;
+}
+
+.base {
+    margin-left: 17px;
+    width: 100%;
+    margin-top: 33px;
+}
+
+.base > p {
+    font-size: 11px;
+    line-height: 12.89px;
+    margin: 18px 0;
+    color: #c7c7c7;
+}
+/* Fim da configuração do Sidebar */
+
+/* Começo da configuração das postagens */
+
+.posts {
+    width: 614px;
+    height: 800px;
+}
+
+.post {
+    width: 614px;
+    height: 749px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.topo-post{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-post > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil-post-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    margin-left: 17px;
+}
+
+.topo-post > ion-icon {
+    margin-right: 18.5px;
+}
+
+.post-img, video {
+    width: 100%;
+    height: auto;
+}
+
+.base-post {
+    width: 100%;
+    height: 76px;
+    margin: 0;
+}
+
+.base-post-icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.base-post-icones ion-icon {
+    width: 20.5px;
+    height: 20.5px;
+}
+
+.base-post-icones > div {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contador-curtidas {
+    width: calc(100% - 11px);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.contador-curtidas strong {
+    color: #000;
+    font-size: 14px;
+}
+
+.contador-curtidas > img {
+    width: 20px;
+    margin-right: 8px;
+}

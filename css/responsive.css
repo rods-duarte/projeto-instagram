@@ -1,0 +1,81 @@
+@media screen and (max-width: 935px) {
+    
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 614px) {
+    
+    /* Ajustes nos tamanhos */
+
+    .conteudo, .principal, 
+    .posts,.post, .stories-bar {
+        width: 100%;
+    }
+
+    
+    .post {
+        height: fit-content;
+        border-left: none;
+        border-right: none;
+    }
+
+    .principal {
+        margin-top: 15px;
+    }
+
+    .conteudo {
+        margin-right: 0;
+    }
+
+    /* Ajustes no navbar */
+    
+    .navbar {
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+    .atalhos {
+        width: auto;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    .atalhos > a {
+        display: none;
+    }
+
+    .atalhos > a:first-child{
+        display: block;
+    }
+
+    /* Ajustes na logo */
+
+    .logo-mobile {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .logo ion-icon, .logo .separador-logo {
+        display: none;
+    }
+
+    /* Ajuste de cor */
+
+    .stories-bar {
+        background-color: #E5E5E5;
+        border: none;
+    }
+
+    /* Ajuste na barra de stories */
+
+    .botoes {
+        display: none;
+    }
+    
+}

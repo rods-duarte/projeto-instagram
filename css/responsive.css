@@ -20,6 +20,10 @@
         border-right: none;
     }
 
+    .post:last-child {
+        margin-bottom: 104px;
+    }
+
     .conteudo {
         margin-right: 0;
     }
@@ -37,6 +41,7 @@
     .navbar {
         justify-content: space-between;
         width: 100vw;
+        position: absolute;
     }
 
     .buscador {
@@ -79,5 +84,11 @@
 
     .botoes {
         display: none;
+    }
+
+    /* Barra mobile */
+
+    .barra-mobile {
+        display: flex;
     }
 }

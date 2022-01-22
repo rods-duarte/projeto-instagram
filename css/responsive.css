@@ -13,7 +13,6 @@
     .posts,.post, .stories-bar {
         width: 100%;
     }
-
     
     .post {
         height: fit-content;
@@ -21,12 +20,16 @@
         border-right: none;
     }
 
-    .principal {
-        margin-top: 15px;
-    }
-
     .conteudo {
         margin-right: 0;
+    }
+    
+    .stories-bar {
+        margin: 0;
+    }
+
+    .principal {
+        margin-top: 54px;
     }
 
     /* Ajustes no navbar */
@@ -50,7 +53,7 @@
         display: none;
     }
 
-    .atalhos > a:first-child{
+    .atalhos > a:first-child {
         display: block;
     }
 
@@ -72,10 +75,9 @@
         border: none;
     }
 
-    /* Ajuste na barra de stories */
+    /* Remove o botão na barra de stories */
 
     .botoes {
         display: none;
     }
-    
 }

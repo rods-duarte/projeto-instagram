@@ -5,9 +5,9 @@ A responsive layout of the web version of Instagram.
 <br>
 
 <div align=center style="display:flex; justify-content: center">
-    <img style="width: 20%;" src="/img/instagram-desk-mockup.png" />
-    <img style="width: 20%;" src="/img/instagram-tablet-mockup.png" />
-    <img style="width: 20%;" src="/img/instagram-mobile-mockup.png" />
+    <img style="width: 45%;" src="/img/instagram-desk-mockup.png" />
+    <img style="width: 25%;" src="/img/instagram-tablet-mockup.png" />
+    <img style="width: 15%;" src="/img/instagram-mobile-mockup.png" />
 </div>
 
 ## Technologies
